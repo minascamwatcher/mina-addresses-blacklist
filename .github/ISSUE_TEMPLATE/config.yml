@@ -1,0 +1,20 @@
+name: Scam Address Report
+description: File a scam address report
+title: "[Address]: REPLACE_ADDRESS"
+body:
+  - type: input
+    id: address
+    attributes:
+      label: Address
+      description: What is the address?
+      placeholder: ex. B62xxxx
+    validations:
+      required: false
+  - type: textarea
+    id: proof
+    attributes:
+      label: proof?
+      description: Please explain the scam. Please provide as many infos as you have
+      placeholder: e.g. Memo scam, airdrop scam.
+    validations:
+      required: true
